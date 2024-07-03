@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputBox input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputBox i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-style: normal;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.inputBox input:focus + i,
+.inputBox input:not(:placeholder-shown) + i {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    color: #4CAF50;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+.error{
+        color: red;
+}
+
+.inputBox .password-container i {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+
+.inputBox .password-container i:hover {
+    color: #333;
+}
+

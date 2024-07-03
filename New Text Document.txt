@@ -1,0 +1,3 @@
+https://youtu.be/1qemXwkc0ZU?si=wFAT5qi_4R7Tbw5L - host web
+https://swiperjs.com/demos#responsive-breakpoints - swiper
+https://www.lipsum.com/ - dummy paragraph
